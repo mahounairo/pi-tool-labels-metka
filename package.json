@@ -1,0 +1,15 @@
+{
+  "name": "pi-tool-labels-metka",
+  "version": "0.1.0",
+  "description": "Short labels for pi's tool calls from Metka, a small local model: the label writes itself over the command as it runs",
+  "license": "Apache-2.0",
+  "keywords": ["pi-package", "pi", "llama.cpp", "tool-calls", "labels"],
+  "type": "module",
+  "pi": {
+    "extensions": ["./index.ts"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  }
+}
