@@ -16,8 +16,10 @@ ctrl+o shows the full calls as usual.
 ## Install
 
 ```
-pi install git:github.com/mahounairo/pi-tool-labels-metka
+pi install npm:pi-tool-labels-metka
 ```
+
+or straight from GitHub: `pi install git:github.com/mahounairo/pi-tool-labels-metka`.
 
 Then run `/labels` in pi. It offers:
 
